@@ -1,0 +1,26 @@
+node_modules/
+
+# Service account credentials and local secrets
+serviceAccountKey*
+*-firebase-adminsdk-*.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build and test output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/

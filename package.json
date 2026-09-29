@@ -1,0 +1,20 @@
+{
+  "name": "firebase-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "import-data": "node importDataJSON.js",
+    "clear-all-data": "node clearAllData.js",
+    "download-all-data": "node downloadAllData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "firebase": "^12.19.0",
+    "firebase-admin": "^14.5.0"
+  }
+}

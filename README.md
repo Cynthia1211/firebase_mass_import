@@ -33,14 +33,10 @@ A small Node.js command-line app for importing, exporting, and clearing document
       {
         "sample_field3": "sample value",
         "sample_field4": "sample value",
-        "sample_field5": "sample value",
-        "sample_field6": "sample value"
       },
       {
         "sample_field3": "sample value",
         "sample_field4": "sample value",
-        "sample_field5": "sample value",
-        "sample_field6": "sample value"
       }
     ]
   },

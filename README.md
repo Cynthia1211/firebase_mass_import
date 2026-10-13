@@ -20,6 +20,40 @@ A small Node.js command-line app for importing, exporting, and clearing document
 
 3. Put the data to import in `dataJSON.json`. It must be a JSON array. Each item must have a unique, non-empty string `id` without `/`; the `id` is used as the Firestore document ID.
 
+### Upload JSON format
+
+`dataJSON.json` must be a JSON array. Each object represents one Firestore document. Use `id` for the document ID, and add the fields you want to upload. For example, a document can contain a nested array field:
+
+```json
+[
+  {
+    "id": "document_id1",
+    "sample_field1": "sample value",
+    "sample_field2": [
+      {
+        "sample_field3": "sample value",
+        "sample_field4": "sample value",
+        "sample_field5": "sample value",
+        "sample_field6": "sample value"
+      },
+      {
+        "sample_field3": "sample value",
+        "sample_field4": "sample value",
+        "sample_field5": "sample value",
+        "sample_field6": "sample value"
+      }
+    ]
+  },
+  {
+    "id": "document_id2",
+    "sample_field1": "sample value",
+    "sample_field2": []
+  }
+]
+```
+
+In this example, `document_id1` and `document_id2` become the Firestore document IDs. The other properties are uploaded as document fields. `sample_field2` is an array, and each item in the array is a nested object.
+
 There is no separate build step; the scripts run directly with Node.js.
 
 ## Get a service account key

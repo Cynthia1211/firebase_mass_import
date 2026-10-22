@@ -1,434 +1,95 @@
 [
   {
-    "id": "level_1",
-    "level_title": "Vowels(स्वर) - अ, इ, उ",
-    "bubble_pool": [
-      {
-        "devanagari": "अ",
-        "iast": "a",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level01%2Flvl1_%E0%A4%85.mp3?alt=media&token=cbcf1617-cd5c-4e4e-a05e-28738a874b7d",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "इ",
-        "iast": "i",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level01%2Flvl1_%E0%A4%87.mp3?alt=media&token=1c3fb18d-346d-427b-aac5-299ad6c2f934",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "उ",
-        "iast": "u",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level01%2Flvl1_%E0%A4%89.mp3?alt=media&token=ee9253a4-5b4d-4cdc-87ef-e0eef8e49529",
-        "description": "Vowel (स्वर)"
-      }
-    ]
+    "img_2": "images/pictionary_2.jpg",
+    "frontend": "Built with React 18 for a dynamic, responsive UI, utilizing Socket.IO-client for real-time event handling",
+    "backend": "Powered by Node.js and Express, managing RESTful APIs for authentication and room validation",
+    "database": "MongoDB with Mongoose for persistent storage of user accounts and a comprehensive library of Sanskrit flashcards",
+    "others": "Real-time Engine: Leverages Socket.IO for high-frequency data relay, including drawing coordinates, lobby management, and synchronized game states",
+    "img_1": "images/pictionary_1.jpg",
+    "usedTech": "Javascript, React, Node.js, Socket.IO, HTML, CSS",
+    "title": "Sanskrit Pictionary",
+    "description": "A real-time, team-based multiplayer educational game designed for learning Sanskrit vocabulary through drawing and guessing. ",
+    "projectUrl": "https://sanskrit-pictionary.vercel.app/",
+    "longDescription": "This is a real-time, team-based multiplayer educational game built with React and Node.js. The application facilitates Sanskrit vocabulary learning by leveraging Socket.IO for high-frequency data relay, including live canvas synchronization and real-time lobby management. It features an automated, time-based scoring engine and an in-memory Game Session Manager to handle synchronized game states and rapid round transitions. Developed with a focus on responsive design and secure user sessions, the platform utilizes MongoDB for persistent data storage for both registered users and guests.",
+    "id": "GXs7Jxoipvqdkcf14ehD"
   },
   {
-    "id": "level_2",
-    "level_title": "Vowels(स्वर) - आ, ई, ऊ",
-    "bubble_pool": [
-      {
-        "devanagari": "आ",
-        "iast": "ā",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level02%2Flvl2_%E0%A4%86.mp3?alt=media&token=eb970ad7-556b-4ecf-950d-74c52eedddae",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "ई",
-        "iast": "ī",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level02%2Flvl2_%E0%A4%88.mp3?alt=media&token=686c9b2c-12e9-4047-a6d1-c615884952f1",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "ऊ",
-        "iast": "ū",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level02%2Flvl2_%E0%A4%8A.mp3?alt=media&token=5b4a0a12-d672-4105-9465-df10cff59725",
-        "description": "Vowel (स्वर)"
-      }
-    ]
+    "frontend": "Developed using Angular, utilizing Angular Material for a polished UI/UX and Reactive Programming for efficient data handling",
+    "backend": "Powered by a Spring Boot microservice that interfaces with an H2 SQL Database to serve professional profile and contact information via RESTful endpoints",
+    "database": "Uses H2 Database for structured storage of personal profile information; Also, integrated with Google Firebase (Firestore) to store and manage project metadata, images, and descriptions;",
+    "description": "An interactive, responsive personal portfolio designed to showcase software engineering projects and professional identity.",
+    "Others": "Cloud & DevOps: AWS (EC2, S3), GitHub Actions (CI/CD)",
+    "usedTech": "Angular, TypeScript, Java(Spring Boot), Firebase (Firestore), H2 SQL, REST API, HTML, CSS, AWS (EC2, S3)",
+    "projectUrl": "http://yuezhang.site/",
+    "img_1": "images/personalWeb_1.jpg",
+    "img_2": "images/personalWeb_2.jpg",
+    "title": "Personal Web (This Website)",
+    "longDescription": "This is a professional portfolio platform designed to showcase my profile, detailed project experiences, and core technical competencies. The site demonstrates a full-stack integration by fetching dynamic content from multiple sources: the profile details in the header are retrieved through a Spring Boot REST API connected to an H2 SQL database, while the project gallery is managed via a cloud-based Firebase NoSQL database. To ensure high availability and scalability, the application is hosted on AWS, utilizing a combination of EC2 for the backend services and S3 for static web hosting. Furthermore, the platform implements a modern CI/CD pipeline through GitHub Actions, enabling automated testing and deployment to ensure the site is always up-to-date with the latest professional achievements.",
+    "id": "KXqdNvJAqiBmSOOoLtBG"
   },
   {
-    "id": "level_3",
-    "level_title": "Vowels(स्वर) - ऋ, ॠ, ऌ",
-    "bubble_pool": [
-      {
-        "devanagari": "ऋ",
-        "iast": "ṛ",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level03%2Flvl3_%E0%A4%8B.mp3?alt=media&token=4b70cdff-a2e3-4f71-a0f0-2e37cc2a4413",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "ॠ",
-        "iast": "ṝ",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level03%2Flvl3_%E0%A5%A0.mp3?alt=media&token=444a5fb7-cd82-44af-85ff-92507a4f3777",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "ऌ",
-        "iast": "ḷ",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level03%2Flvl3_%E0%A4%8C.mp3?alt=media&token=075e872e-854e-41fc-a416-fb13464a178e",
-        "description": "Vowel (स्वर)"
-      }
-    ]
+    "description": "A real-time, interactive 2D web game where players control a bird navigating through a dynamic environment. ",
+    "frontend": "Developed using ZIM.js (built on CreateJS) for high-performance HTML5 Canvas rendering and interactive component management.",
+    "usedTech": "JavaScript, ZIM.js, HTML",
+    "longDescription": "This is an interactive 2D web game that challenges players to navigate a bird through a dynamic, randomized environment filled with shifting clouds, buildings, and aircraft. The gameplay centers on a real-time collision system where players must collect healthy fruit to increase their score while avoiding junk food and lethal hazards. Using responsive keyboard controls with strictly defined movement boundaries, the game tracks player performance through a dual-scoring logic that triggers a \"Game Over\" if the bird crashes or consumes too much unhealthy food",
+    "img_1": "images/flyfeast_1.jpg",
+    "title": "FLY & FEAST",
+    "projectUrl": "http://fly-feast.s3-website.ca-central-1.amazonaws.com",
+    "img_2": "images/flyfeast_2.jpg",
+    "id": "WZk9lZRL9NAmOz1MpyPO"
   },
   {
-    "id": "level_4",
-    "level_title": "Vowels(स्वर) - ए, ऐ, ओ, औ",
-    "bubble_pool": [
-      {
-        "devanagari": "ए",
-        "iast": "e",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level04%2Flvl4_%E0%A4%8F.mp3?alt=media&token=5922b1f1-05aa-45d9-9f27-c5d5b287b5ed",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "ऐ",
-        "iast": "ai",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level04%2Flvl4_%E0%A4%90.mp3?alt=media&token=8a16b4d2-0000-4ff5-b4ff-6e7ef932ef96",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "ओ",
-        "iast": "o",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level04%2Flvl4_%E0%A4%93.mp3?alt=media&token=b53ecb03-c29e-4402-ab19-bec8668a5c5e",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "औ",
-        "iast": "au",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level04%2Flvl4_%E0%A4%94.mp3?alt=media&token=dfcbd380-a8dc-426a-956f-6d12636003c7",
-        "description": "Vowel (स्वर)"
-      }
-    ]
+    "title": "E-Commerce Platform",
+    "description": "A full-stack E-commerce platform features a secure user environment and dynamic product catalogs",
+    "frontend": "Built with Thymeleaf and Bootstrap 5 for a responsive, server-side rendered UI.",
+    "backend": "Powered by Java Spring Boot, utilizing Spring Security for authentication and Spring Web MVC for RESTful routing and logic",
+    "database": "H2 Database (Relational) with JDBC for high-speed persistent storage, structured through a clean Data Access Object (DAO) pattern",
+    "usedTech": "Java, Spring Boot, Thymeleaf, JDBC, H2 Database, HTML",
+    "longDescription": "This is a robust, full-stack E-commerce platform that provides a secure, dynamic retail experience for small business owners. Built with a focus on reliability, the application features role-based authentication via Spring Security, a real-time product catalog with categorized browsing, and a persistent shopping cart system for a streamlined checkout process. All user profiles and transaction history are managed through a structured relational database to ensure data integrity and performance. The project is currently in progress, with future updates planned to integrate comprehensive user registration, automated email notifications, and secure payment gateway support via Stripe and PayPal.",
+    "img_1": "images/ecommerce_1.jpg",
+    "img_2": "images/ecommerce_2.jpg",
+    "id": "t2OgSIDfeFsLcUQ5eOcW"
   },
   {
-    "id": "level_5",
-    "level_title": "Vowels(स्वर) - अं, अः",
-    "bubble_pool": [
-      {
-        "devanagari": "अं",
-        "iast": "ṃ",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level05%2Flvl5_%E0%A4%85%E0%A4%82.mp3?alt=media&token=0e8ec5fa-6d6c-4d79-8b32-962db92f7b9e",
-        "description": "Vowel (स्वर)"
-      },
-      {
-        "devanagari": "अः",
-        "iast": "ḥ",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level05%2Flvl5_%E0%A4%85%E0%A4%83.mp3?alt=media&token=ffe0c146-22fb-4061-9d99-93985222723a",
-        "description": "Vowel (स्वर)"
-      }
-    ]
+    "title": "SanskritBubble",
+    "description": "Sanskrit Bubble is a browser-based learning game. Players aim and fire bubbles representing Sanskrit sounds, match connected groups, and review each level's audio.",
+    "frontend": "Built with react.",
+    "database": "Firebase",
+    "usedTech": "React, HTML, Javascript, css, firebase",
+    "longDescription": "",
+    "img_1": "https://firebasestorage.googleapis.com/v0/b/yuezhangprofile-52c27.firebasestorage.app/o/Projects%2FSanskritBubbleCover.png?alt=media&token=55fd62f7-5e82-4517-9f9b-101b5eb9e5a2",
+    "img_2": "https://firebasestorage.googleapis.com/v0/b/yuezhangprofile-52c27.firebasestorage.app/o/Projects%2FSanskritBubble.png?alt=media&token=5fcd64b6-2f68-4490-bec4-f163abb30866",
+    "id": "SanskritBubble",
+    "projectUrl": "https://cynthia1211.github.io/SanskritBubble/"
   },
   {
-    "id": "level_6",
-    "level_title": "Consonants(व्यञ्जन) - क, ख, ग, घ, ङ",
-    "bubble_pool": [
-      {
-        "devanagari": "क",
-        "iast": "ka",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level06%2Flvl6_%E0%A4%95.mp3?alt=media&token=e2e734d0-9ab8-4560-b308-5b72c7180efb",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ख",
-        "iast": "kha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level06%2Flvl6_%E0%A4%96.mp3?alt=media&token=f1d90d3a-3129-44d6-af2e-afcba6eb3e7b",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ग",
-        "iast": "ga",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level06%2Flvl6_%E0%A4%97.mp3?alt=media&token=834473ba-30a5-40da-9875-106a4d0d0d2b",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "घ",
-        "iast": "gha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level06%2Flvl6_%E0%A4%98.mp3?alt=media&token=9a0ddea5-a30f-40eb-b304-ee98eddb734e",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ङ",
-        "iast": "ṅa",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level06%2Flvl6_%E0%A4%99.mp3?alt=media&token=12ab7227-feb5-4f54-9bd7-2801501d2655",
-        "description": "Consonant (व्यञ्जन)"
-      }
-    ]
+    "title": "Dash Delivery",
+    "description": "A 2D side-scrolling delivery runner built with C++17 and raylib. Control a courier, avoid obstacles, collect power-ups, and complete three delivery stages before time or food runs out.",
+    "usedTech": "C++, Raylib",
+    "longDescription": "",
+    "img_1": "https://firebasestorage.googleapis.com/v0/b/yuezhangprofile-52c27.firebasestorage.app/o/Projects%2FDashDeliveryCover.png?alt=media&token=72491172-871a-4b60-aacc-fc626fbcd6a1",
+    "img_2": "https://firebasestorage.googleapis.com/v0/b/yuezhangprofile-52c27.firebasestorage.app/o/Projects%2FDashDelivery.png?alt=media&token=555ff445-3f95-4b4d-8b4b-fa9c3fd63a44",
+    "id": "DashDelivery",
+    "projectUrl": "https://cynthia1211.github.io/Dash_Delivery/"
   },
   {
-    "id": "level_7",
-    "level_title": "Consonants(व्यञ्जन) - च, छ, ज, झ, ञ",
-    "bubble_pool": [
-      {
-        "devanagari": "च",
-        "iast": "ca",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level07%2Flvl7_%E0%A4%9A.mp3?alt=media&token=a131fc05-eeb2-416f-a513-9a777643a5a7",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "छ",
-        "iast": "cha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level07%2Flvl7_%E0%A4%9B.mp3?alt=media&token=8e2ee669-6f5f-41a1-8c85-910fd72aff07",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ज",
-        "iast": "ja",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level07%2Flvl7_%E0%A4%9C.mp3?alt=media&token=f62f6143-7bf5-4d16-b575-64a364f1cf45",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "झ",
-        "iast": "jha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level07%2Flvl7_%E0%A4%9D.mp3?alt=media&token=ac654574-e82a-454c-88e8-4446f09d0839",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ञ",
-        "iast": "ña",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level07%2Flvl7_%E0%A4%9E.mp3?alt=media&token=9df779fc-01d5-4633-93d1-949e4509a376",
-        "description": "Consonant (व्यञ्जन)"
-      }
-    ]
+    "title": "Treasure Hunt",
+    "description": "This is a location-based iOS app where users hide and hunt for treasures at real-world GPS coordinates. Players to find items, earn points, and compete on a global leaderboard.",
+    "usedTech": "swift",
+    "longDescription": "",
+    "img_1": "https://firebasestorage.googleapis.com/v0/b/yuezhangprofile-52c27.firebasestorage.app/o/Projects%2FTreasureHuntCover.png?alt=media&token=882a9b03-9575-4c46-aa0b-3d50d658cfb5",
+    "img_2": "https://firebasestorage.googleapis.com/v0/b/yuezhangprofile-52c27.firebasestorage.app/o/Projects%2FTreasureHunt.png?alt=media&token=2bea1832-08e0-4ac5-bed9-1094bdf8481f",
+    "id": "TreasureHunt",
+    "projectUrl": "https://sheridanc-my.sharepoint.com/:p:/g/personal/zhang240_shernet_sheridancollege_ca/IQAdUBXagV8nTbLQH9v7NBI4AcUiGd9gFwNUHPENNaMuUjg"
   },
   {
-    "id": "level_8",
-    "level_title": "Consonants(व्यञ्जन) - ट, ठ, ड, ढ, ण",
-    "bubble_pool": [
-      {
-        "devanagari": "ट",
-        "iast": "ṭa",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level08%2Flvl8_%E0%A4%9F.mp3?alt=media&token=83eaff13-12ba-4dc4-aa35-2b3e6f97ad86",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ठ",
-        "iast": "ṭha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level08%2Flvl8_%E0%A4%A0.mp3?alt=media&token=979f1ee9-ee84-4c69-9252-6c2ff1c6ce2e",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ड",
-        "iast": "ḍa",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level08%2Flvl8_%E0%A4%A1.mp3?alt=media&token=22efb0b3-b97e-43c5-9849-6c48fca129f3",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ढ",
-        "iast": "ḍha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level08%2Flvl8_%E0%A4%A2.mp3?alt=media&token=bcf0700a-b620-40d5-ae16-83414fc08b03",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ण",
-        "iast": "ṇa",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level08%2Flvl8_%E0%A4%A3.mp3?alt=media&token=805664cd-abb0-4bde-888c-665b4ff2aac2",
-        "description": "Consonant (व्यञ्जन)"
-      }
-    ]
-  },
-  {
-    "id": "level_9",
-    "level_title": "Consonants(व्यञ्जन) - त, थ, द, ध, न",
-    "bubble_pool": [
-      {
-        "devanagari": "त",
-        "iast": "ta",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level09%2Flvl9_%E0%A4%A4.mp3?alt=media&token=00a81e92-ffc5-43d6-9298-701108ab3717",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "थ",
-        "iast": "tha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level09%2Flvl9_%E0%A4%A5.mp3?alt=media&token=bac86ce1-0b4b-4ee2-a207-e94ca87e2495",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "द",
-        "iast": "da",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level09%2Flvl9_%E0%A4%A6.mp3?alt=media&token=fe851200-9f6f-4d3d-93d8-b7b67599f873",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ध",
-        "iast": "dha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level09%2Flvl9_%E0%A4%A7.mp3?alt=media&token=98a5f7a2-aa5a-41ce-aaf7-5447c6a32639",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "न",
-        "iast": "na",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level09%2Flvl9_%E0%A4%A8.mp3?alt=media&token=67a820a4-cf38-4443-98f2-83044df7a867",
-        "description": "Consonant (व्यञ्जन)"
-      }
-    ]
-  },
-  {
-    "id": "level_10",
-    "level_title": "Consonants(व्यञ्जन) - प, फ, ब, भ, म",
-    "bubble_pool": [
-      {
-        "devanagari": "प",
-        "iast": "pa",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level10%2Flvl10_%E0%A4%AA.mp3?alt=media&token=759a8a8b-8bcc-401f-ae7f-5e1663a39c52",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "फ",
-        "iast": "pha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level10%2Flvl10_%E0%A4%AB.mp3?alt=media&token=470d1b60-dc88-4888-915f-05998cd15035",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ब",
-        "iast": "ba",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level10%2Flvl10_%E0%A4%AC.mp3?alt=media&token=fb808268-61ef-41d0-88cb-994e63cc07a0",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "भ",
-        "iast": "bha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level10%2Flvl10_%E0%A4%AD.mp3?alt=media&token=9094fca1-1165-47e9-834b-edfb2b1bf11a",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "म",
-        "iast": "ma",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level10%2Flvl10_%E0%A4%AE.mp3?alt=media&token=f89b32d5-719d-448a-80bd-9bcc6d212fd7",
-        "description": "Consonant (व्यञ्जन)"
-      }
-    ]
-  },
-  {
-    "id": "level_11",
-    "level_title": "Consonants(व्यञ्जन) - य, र, ल, व",
-    "bubble_pool": [
-      {
-        "devanagari": "य",
-        "iast": "ya",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level11%2Flvl11_%E0%A4%AF.mp3?alt=media&token=1cf8c8c9-1bc2-461e-a42c-9898c33143b3",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "र",
-        "iast": "ra",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level11%2Flvl11_%E0%A4%B0.mp3?alt=media&token=8fa84d7e-9ab8-4176-a3d2-b39558e492d0",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ल",
-        "iast": "la",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level11%2Flvl11_%E0%A4%B2.mp3?alt=media&token=7e7fe023-24f4-4274-992d-5a9ce498a16e",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "व",
-        "iast": "va",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level11%2Flvl11_%E0%A4%B5.mp3?alt=media&token=95eb79a0-11d3-44f7-8d3e-335061491cae",
-        "description": "Consonant (व्यञ्जन)"
-      }
-    ]
-  },
-  {
-    "id": "level_12",
-    "level_title": "Consonants(व्यञ्जन) - श, ष, स, ह",
-    "bubble_pool": [
-      {
-        "devanagari": "श",
-        "iast": "śa",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level12%2Flvl12_%E0%A4%B6.mp3?alt=media&token=09429089-b433-479d-ab80-34058d1b3ee6",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ष",
-        "iast": "ṣa",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level12%2Flvl12_%E0%A4%B7.mp3?alt=media&token=f2b05284-45ea-438e-84b9-13cdac9ed201",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "स",
-        "iast": "sa",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level12%2Flvl12_%E0%A4%B8.mp3?alt=media&token=9c61396e-a03e-459c-925b-3783b45fd207",
-        "description": "Consonant (व्यञ्जन)"
-      },
-      {
-        "devanagari": "ह",
-        "iast": "ha",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level12%2Flvl12_%E0%A4%B9.mp3?alt=media&token=1fe83455-6759-4614-a643-4927d757812a",
-        "description": "Consonant (व्यञ्जन)"
-      }
-    ]
-  },
-  {
-    "id": "level_13",
-    "level_title": "Words - No Matras",
-    "bubble_pool": [
-      {
-        "devanagari": "जल",
-        "iast": "jala",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level13%2Flvl13_%E0%A4%9C%E0%A4%B2.mp3?alt=media&token=9df4029c-d7e4-49aa-b021-e6d80bbec35c",
-        "description": "ज + ल"
-      },
-      {
-        "devanagari": "गज",
-        "iast": "gaja",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level13%2Flvl13_%E0%A4%97%E0%A4%9C.mp3?alt=media&token=18f24b9f-60ca-411b-9440-ee305ade3ca3",
-        "description": "ग + ज"
-      },
-      {
-        "devanagari": "वन",
-        "iast": "vana",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level13%2Flvl13_%E0%A4%B5%E0%A4%A8.mp3?alt=media&token=b4614976-aa1b-4045-bd35-b27333420c37",
-        "description": "व + न"
-      },
-      {
-        "devanagari": "फल",
-        "iast": "phala",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level13%2Flvl13_%E0%A4%AB%E0%A4%B2.mp3?alt=media&token=659c1195-c69a-4ef4-a29e-96160640a3d6",
-        "description": "फ + ल"
-      },
-      {
-        "devanagari": "नर",
-        "iast": "nara",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level13%2Flvl13_%E0%A4%A8%E0%A4%B0.mp3?alt=media&token=8de6a8f3-9f06-4e9e-a8a2-222421ea8491",
-        "description": "न + र"
-      }
-    ]
-  },
-  {
-    "id": "level_14",
-    "level_title": "Conjuncts - Half Letters",
-    "bubble_pool": [
-      {
-        "devanagari": "अस्तु",
-        "iast": "astu",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level14%2Flvl14_%E0%A4%85%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81.mp3?alt=media&token=30f96637-7b0b-46c8-b00d-35340392f055",
-        "description": "अ + स् + तु"
-      },
-      {
-        "devanagari": "सत्य",
-        "iast": "satya",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level14%2Flvl14_%E0%A4%B8%E0%A4%A4%E0%A5%8D%E0%A4%AF.mp3?alt=media&token=8ef3e1e1-335c-4acc-9044-d15c03dc6379",
-        "description": "स + त् + य"
-      },
-      {
-        "devanagari": "अम्ब",
-        "iast": "amba",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level14%2Flvl14_%E0%A4%85%E0%A4%AE%E0%A5%8D%E0%A4%AC.mp3?alt=media&token=a1793f20-e53a-448d-ba6f-4a64e39f9874",
-        "description": "अ + म् + ब"
-      },
-      {
-        "devanagari": "अग्नि",
-        "iast": "agni",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level14%2Flvl14_%E0%A4%85%E0%A4%97%E0%A5%8D%E0%A4%A8%E0%A4%BF.mp3?alt=media&token=79425c25-a208-4b09-8453-30ed01e6173c",
-        "description": "अ + ग् + नि"
-      },
-      {
-        "devanagari": "शब्द",
-        "iast": "śabda",
-        "audio": "https://firebasestorage.googleapis.com/v0/b/sanskritbubble.firebasestorage.app/o/level14%2Flvl14_%E0%A4%B6%E0%A4%AC%E0%A5%8D%E0%A4%A6.mp3?alt=media&token=ff4b72e6-faff-4b67-9fef-a5e86a94f193",
-        "description": "श + ब् + द"
-      }
-    ]
+    "title": "SanskritSmith",
+    "description": "Sanskrit Smith is a sanskrit charater transformation game. A level defines the available tools and each word's ordered transformation steps. ",
+    "usedTech": "swift",
+    "longDescription": "",
+    "img_1": "https://firebasestorage.googleapis.com/v0/b/yuezhangprofile-52c27.firebasestorage.app/o/Projects%2FSanskritSmithCover.png?alt=media&token=5a20e3c7-182c-4636-a724-738ffbe9b492",
+    "img_2": "https://firebasestorage.googleapis.com/v0/b/yuezhangprofile-52c27.firebasestorage.app/o/Projects%2FSanskritSmith.png?alt=media&token=066b826c-bd5a-4ed5-ab77-1a2844b99691",
+    "id": "SanskritSmith",
+    "projectUrl": "https://cynthia1211.github.io/SanskritSmith/"
   }
 ]
